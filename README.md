@@ -1,3 +1,3 @@
-# example_roulette
-Program to refactor that plays a game of roulette
-### Hello
+# example_roulette, refactored by Jasper Hancock (jmh98) and Alex Rice (akr24)
+Our refactoring of this project consisted of creating a class hierarchy for types of bets. We created the RedOrBlack, EvenOrOdd, and Consecutive classes represent the three different types of bets. We added placeBet() and betIsMade() methods to all of these classes, each defined according to the specifications of the class. This polymorphism allowed us to simplify and consolidate the code in the game class. The code became more complex as a result of the hierarchy, adding new relationships between classes. We prefer our refactored code because the Game class is simplified and because the placeBet() and betIsMade() methods are moved into much more appropriate classes in the Bet class hierarchy. 
+### 
